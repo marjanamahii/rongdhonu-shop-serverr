@@ -253,6 +253,7 @@ async function run() {
             res.json(review);
         });
 
+        // 4242424242424242 card number for testing
         app.post('/create-payment-intent', async (req, res) => {
             const paymentInfo = req.body;
             // cent a gun hoy 100 te
