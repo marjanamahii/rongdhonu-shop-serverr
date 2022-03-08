@@ -7,7 +7,6 @@ require('dotenv').config();
 const ObjectId = require('mongodb').ObjectId;
 const stripe = require('stripe')(process.env.STRIPE_SECRET);
 
-
 const port = process.env.PORT || 7000;
 
 // firebase admin initialization
